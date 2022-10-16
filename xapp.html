@@ -1,0 +1,76 @@
+<br />
+<br />
+<a href="http://ztvip.xyz" title="返回SJ5D首页"></a>
+<a href="https://www.ztvip.xyz/xapp.html" >当前页面</a>
+<br />
+<br />
+<a href="https://www.ztvip.xyz/APP/myy.apk" download>下载-手机版喵影音</a> 
+<br />
+<img src="https://www.ztvip.xyz/APP/myy.jpg" />
+<br />
+<br />
+<a href="https://www.ztvip.xyz/APP/TVBox.apk" download>下载-TVBox（空壳，需要设置里面配置地址）</a> 
+<br />
+<img src="https://www.ztvip.xyz/APP/TVBox.jpg" />
+<br />
+<br />
+<a href="https://www.ztvip.xyz/APP/mysTV.apk" download>下载-喵影视TV（在TVBox基础上改的--自带资源）</a> 
+<br />
+<img src="https://www.ztvip.xyz/APP/mysTV.jpg" />
+<br />
+<br />
+<a href="https://www.ztvip.xyz/APP/TVm3.0.apk" download>下载-TV猫3.0（公众号下载的--自带资源）</a> 
+<br />
+<img src="https://www.ztvip.xyz/APP/TVm3.0.jpg" />
+<br />
+<br />
+
+配置地址
+<br />
+<br />
+https://www.ztvip.xyz/z/meow.txt   
+ <a href=" " onclick="copyToClipboard('https://www.ztvip.xyz/z/meow.txt') "> &nbsp&nbsp&nbsp 点击复制</a>
+<!-- <p  href=onclick="copyToClipboard('https://www.ztvip.xyz/z/meow.txt') ">复制</p>-->
+
+<p>配置方法：点击上面复制，打开软件，设置-配置地址-粘贴（重新进入）</p>
+
+<!--
+<script>
+var temp = document.createElement('input');
+temp.value="xx";
+document.body.appendChild(temp);
+temp.select();
+if(document.execCommand('copy')){
+	document.execCommand('copy');
+	document.body.removeChild(temp);
+	window.alert("复制成功");
+}else{
+	window.alert("复制失败");
+}
+
+
+</script>
+
+
+-->
+
+
+<!--//js部分-->     
+<script> 
+        function copyToClipboard(s) {
+            if (window.clipboardData) {
+                window.clipboardData.setData('text', s);
+            } else {
+                (function(s) {
+                    document.oncopy = function(e) {
+                        e.clipboardData.setData('text', s);
+                        e.preventDefault();
+                        document.oncopy = null;
+                    }
+                })(s);
+                document.execCommand('Copy');
+            }
+        }
+    </script>
+ 
+<!--//元素部分-->
